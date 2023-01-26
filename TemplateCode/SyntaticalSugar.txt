@@ -1,0 +1,15 @@
+## Map
+let values = [2.0,4.0,5.0,7.0]
+let squares = values.map {$0 * $0}
+// [4.0, 16.0, 25.0, 49.0]
+
+
+## Filter
+let digits = [1,4,10,15]
+let even = digits.filter { $0 % 2 == 0 }
+// [4, 10]
+
+## Reduce
+let items = [2.0,4.0,5.0,7.0]
+let total = items.reduce(10.0, +)
+// 28.0
